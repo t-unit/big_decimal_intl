@@ -101,10 +101,7 @@ class BigDecimalNum implements Comparable<num> {
 
   int ceil() => _bigDecimal.toInt(roundingMode: RoundingMode.CEILING);
 
-  int truncate() => _bigDecimal.toInt(
-        roundingMode:
-            _bigDecimal > BigDecimal.zero ? RoundingMode.DOWN : RoundingMode.UP,
-      );
+  int truncate() => _bigDecimal.toInt(roundingMode: RoundingMode.DOWN);
 
   double roundToDouble() => round().toDouble();
 
