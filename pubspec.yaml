@@ -4,11 +4,11 @@ version: 1.0.0
 repository: https://github.com/t-unit/big_decimal_intl
 
 environment:
-  sdk: ">=3.6.0 <=4.0.0"
+  sdk: ">=3.6.0 <4.0.0"
 
 dependencies:
- big_decimal: ">=0.5.0"
- intl: ">=0.20.1"
+ big_decimal: ^0.5.0
+ intl: ^0.20.1
 
 dev_dependencies:
   lints: ^5.1.0
