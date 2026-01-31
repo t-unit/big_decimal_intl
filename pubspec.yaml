@@ -1,6 +1,6 @@
 name: big_decimal_intl
 description: Parsing and formatting of big decimal numbers.
-version: 1.0.1
+version: 1.0.2
 repository: https://github.com/t-unit/big_decimal_intl
 
 environment:
